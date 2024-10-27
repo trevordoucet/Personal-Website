@@ -1,0 +1,51 @@
+/* Override styles for sections in gamechanger.html */
+.championship-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.championship-photo {
+    width: 90%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 10px; /* Make the edges slightly rounded */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.story-section,
+.product-section,
+.github-section {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.story-section h1,
+.product-section h2,
+.github-section h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* General paragraph style for all paragraphs in story, product, and GitHub sections */
+.story-section p,
+.product-section p,
+.github-section p {
+    font-size: 1.2em;        /* Set a uniform font size */
+    color: #333;             /* Use a consistent color for all paragraphs */
+    text-align: justify;     /* Keep all paragraphs justified for consistency */
+    margin-bottom: 20px;     /* Add space between paragraphs for readability */
+}
+
+/* Spacer styles */
+.spacer {
+    margin-bottom: 20px; 
+    display: block;     
+}
+
+.mini-spacer {
+    margin-bottom: 20px; 
+    display: block;     
+}
